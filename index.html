@@ -15,13 +15,13 @@
             <h1>Celeste</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Sobre o videogame</a></li>
-                    <li><a href="#">Diretores</a></li>
+                    <li><a href="#about">Sobre o videogame</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
             <img class="store-front" src="./imagens/sobre.jpg" alt="sinopse do jogo">
             <div>
@@ -32,7 +32,7 @@
                     A trilha sonora emocional e os gráficos pixelados charmosos reforçam o clima introspectivo da história, tornando Celeste uma experiência profunda sobre perseverança, aceitação e crescimento pessoal.</p>
                 <ul class="brands-list">
                     <li><img src="./imagens/nintendo.jpg" alt="Nintendo" /></li>
-                    <li><img src="./imagens/steam.jpg" alt="Steam" /></li>
+                    <li><img src="./imagens/Steam_Logo.png" alt="Steam" /></li>
                     <li><img src="./imagens/xbox.jpg" alt="Xbox one" /></li>
                 </ul>
             </div>
@@ -40,15 +40,15 @@
     </section>
     <section id="contact">
         <div class="container">
-            <h2>Diretores</h2>
+            <h2>Contato</h2>
             <div class="contact-methods">
                 <div>
                     <h3>Fale conosco</h3>
                     <form>
-                        <input type="text" placeholder="Seu nome">
-                        <input type="email" placeholder="Seu e-mail">
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu e-mail" required>
                         <input type="tel" placeholder="Seu telefone (opcional)">
-                        <textarea placeholder="Sua mensagem"></textarea>
+                        <textarea placeholder="Sua mensagem" required></textarea>
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
@@ -56,18 +56,18 @@
                     <h3>Nos acompanhe</h3>
                     <ul class="social-links">
                         <li>
-                            <a href="https://help.steampowered.com/pt-br/wizard/HelpWithGame/?appid=504230" title="Quer uma mãozinha? chama o suporte.">
-                                <img src="./imagens/capsule_231x87.jpg" alt="Banner do jogo Celeste">
+                            <a href="https://www.instagram.com/theounderstars/?hl=pt-br" title="Olhe essas aventuras!">
+                                <img src="./imagens/instagram.png" alt="Instagram do Theo">
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.nintendo.com/us/store/products/celeste-switch/" title="Jogo para compra no Nintendo">
-                                <img src="./imagens/4f74fbbab423aba0acc28f954643f112946a9c9318e9543fd1ddea4f863fea81.avif" alt="Banner do jogo Celeste">
+                            <a href="https://www.facebook.com/CelesteGame/?locale=pt_BR" title="Olhe essas aventuras!">
+                                <img src="./imagens/facebook.png" alt="Página de facebook do jogo Celeste">
                             </a>
                         </li>
                         <li>
-                            <a href="https://maddymakesgamesinc.itch.io/celeste" title="Jogo para compra no itchio">
-                                <img src="./imagens/Usrjwz.png" alt="Banner do jogo Celeste">
+                            <a href="https://www.youtube.com/channel/UC6xA79ph8SSnvYXFQs3kuFA" title="Olhe essas aventuras!">
+                                <img src="./imagens/youtube.png" alt="Videos sobre o jogo Celeste">
                             </a>
                         </li>
                     </ul>
@@ -85,5 +85,12 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Celeste - Todos os direitos preservados - 2025
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

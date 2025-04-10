@@ -69,7 +69,7 @@ section:nth-of-type(1) .container {
 }
 
 .brands-list img {
-    height: 24px;
+    height: 40px;
 }
 
 .brands-list li {
@@ -90,13 +90,13 @@ section p {
     margin-bottom: 8px;
 }
 
-.social-links img {
-    height: 24px;
-}
-
 .social-links {
     display: inline;
     margin-right: 8px;
+}
+
+.social-links img {
+    height: 32px;
 }
 
 .social-links a {
@@ -152,15 +152,12 @@ form button {
     padding-left: 0;
 }
 
-.brands-list img,
-.social-links img {
-    height: 80px;
-}
-
-.brands-list img {
-    height: 40px;
-}
-
 .contact-methods > div:last-child li {
     list-style: none;
+}
+
+footer {
+    background-color: #182c61;
+    color: #fff;
+    padding: 16px 0;
 }
